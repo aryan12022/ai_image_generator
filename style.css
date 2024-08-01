@@ -6,6 +6,9 @@
     box-sizing: border-box;
      font-family: "poppins",sans-serif;
 }
+body{
+    background-color: black;
+}
 .image-generator{
     height: 40vh;
     display: flex;
@@ -64,6 +67,7 @@ position: relative;
 .generate-form .controls{
     display: flex;
     height: 100%;
+ 
     gap: 15px;
 }
 .generate-form .img-quantity{
